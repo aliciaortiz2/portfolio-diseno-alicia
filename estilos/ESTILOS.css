@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@font-face {
+	font-family: "NeueBit-Bold";
+	src: url("fonts/NeueBit-Bold.otf");
+
+}
+
+@font-face{
+	font-family: "CheeeDemo-Stinkhead";
+	src: url("fonts/CheeeDemo-Stinkhead.otf");
+	
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+nav{
+	background-color: black;
+	color: white;
+	width: 100%; 
+	height: 60px;
+		font-family: 'Roboto Mono', monospace;
+	
+	position: fixed;
+  	top: 0;
+	left: 0;
+
+	
+}
+
+header {
+	font-family: 'Roboto Mono', monospace;
+	 display: inline-block;
+float: left;
+	
+}
+
+
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li{
+	display: inline-block;
+	float: right;
+}
+
+ul li a{
+	color: white;
+	text-decoration: underline;
+	display: block;
+	padding: 20px 20px;
+}
+
+ul li a:hover {
+	color: #F1A0FA;
+}
+
+
+.logo{
+	position: absolute;
+	margin-top: 5px;
+	left: 20px;
+	width: 50px;
+	height: 10px;
+}
+
+#menu {
+	display: none;
+	width: 50px;
+}
+
+nav label {
+	display: none;
+	width: 1px;
+	height: 1px;
+
+}
+
+nav label:hover{
+	cursor: pointer;
+}
+
+body {
+	color: black;
+	background-color: white;
+	font-family: "Source_Sans_Pro";
+	
+}
+
+header{
+	margin: 100px 300px;
+}
+
+#contenido {
+	/*width: 1150px;*/
+	margin: 0px;
+	
+}
+
+.cuadricula {
+	width: 465px;
+	height: 350px;
+	background: url("img/3D.jpg");
+	margin: 0px;
+	float: left;
+	border: 2px solid black;
+	
+}
+
+
+#EDITORIAL {
+	background: url("img/EDITORIAL.jpg");
+}
+
+#FOTOGRAFIA {
+	background: url("img/FOTO.jpg");
+}
+
+#COMUNICACION {
+	background: url("img/COMUNICACIÓN.jpg");
+}
+
+#3D {
+	background: url("img/3D.jpg");
+}
+
+#ANIMACION {
+	background: url("img/eeeee.gif");
+}
+
+#IDCORP {
+	background: url("img/IDCOR.jpg");
+}
+
+.boton {
+	display: inline-block;
+	text-decoration: none;
+	font-family: "NeueBit-Bold";
+ 	width: 465px;
+    font-weight: 800;
+    font-size: 40px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+
+  }
+
+.boton:hover{
+    color: white;
+    background-color: #F1A0FA;
+	font-family: "CheeeDemo-Stinkhead";
+  }
+
+
+footer{
+	position: fixed;
+  	bottom: 0;
+
+}
+
+
+
+
+
+
+
